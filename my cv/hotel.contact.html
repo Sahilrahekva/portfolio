@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <style>
+    /* .navbar{
+
+      background-color: rgb(44, 38, 38);
+
+    
+    } */
+
+    /* .navbar ul li a{
+      margin: 30px 50px;
+    } */
+    
+    .navbar ul li a{
+      margin: 20px;
+      color: rgb(240, 240, 37);
+      font-size: 20px;
+    }
+    
+    .navbar{
+      background-color: rgb(43, 37, 37);
+    }
+
+       /* body{
+          background-image: url("https://www.hospitalitynet.org/picture/xxl_153088702.jpg?t=1524058016");
+          background-repeat: no-repeat;
+          background-size: cover;
+          
+     } */
+
+     body{
+        background-color: rgb(243, 239, 15);
+     }
+
+     #prising{
+        margin-top: 80px;
+        margin-bottom: 80px;
+     }
+
+
+  </style>
+
+
+  <style>
+
+      @media screen and (max-width:700px){
+
+        #te{
+
+          width: 520px;
+
+        }
+     
+      
+    }
+
+     @media screen and (max-width:530px){
+
+        #te{
+
+          width: 320px;
+
+        }
+     
+      
+    }
+
+    
+     @media screen and (max-width:300px){
+
+        #te{
+
+          width: 270px;
+
+        }
+     
+      
+    }
+    
+    
+     @media screen and (max-width:390px){
+
+        #te{
+
+          width: 360px;
+
+        }
+     
+      
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  
+
+<div class="navbar">
+
+  <div class="logo">
+    <span class="text-warning" style="font-size: 30px;"><b>Hotel</b></span><span class="text-danger" style="font-size: 35px;"><b>Shishmahal</b></span>
+   </div>
+ 
+  
+  <ul class="nav nav-pills">
+    <li class="nav-items" id="a">
+      <a href="hotel.home.html" class="nav-link ">HOME</a>
+    </li>
+  
+    <li class="nav-items">
+      <a href="hotel.service.html" class="nav-link"> SERVICES </a>
+    </li>
+  
+    <li class="nav-items">
+      <a href="hotel.about.html" class="nav-link">  ABOUT </a>
+    </li>
+  
+  
+    <li class="nav-items">
+      <a href="hotel.ourteam.html" class="nav-link">OUR TEAM</a>
+    </li>
+  
+  
+    <li class="nav-items">
+      <a href="hotel.portfolio.html" class="nav-link">   PORTFOLIO </a>
+    </li>
+  
+    <li class="nav-items">
+      <a href="hotel.prising.html" class="nav-link "> PRICING </a>
+    </li>
+  
+    <li class="nav-items" id="b">
+      <a href="hotel.contact.html" class="nav-link active">   CONTACT   </a>
+    </li>
+  
+  
+  
+  
+  </ul>
+    
+  </div>
+  
+      
+
+
+  <main style="margin-top: 50px;">
+
+         
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"  data-aos="zoom-in-up" >
+                    <h1><b>Contact info</b></h1>
+                    <p><b>Amazing Hotel, inc.</b></p>
+                    <p>12345 NewYork, Street 125 <br>
+                    United Sates 94107 <br>
+                    P.. (123) 456.7890</p>
+                </div>
+
+
+
+                <div class="col-md-8"  data-aos="zoom-in-up" >
+
+                    <form action="">
+
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name"> <br>
+                            <input type="text" class="form-control" placeholder="Email"> <br>
+                            <input type="text" class=form-control placeholder="Subject"> <br>
+                            <!-- <textarea name="" class="form-control" placeholder="Message"></textarea> <br> -->
+
+                            <textarea name="" id="te" cols="97" rows="8" placeholder="Message"></textarea> <br>
+
+                            <button class="btn btn-success" onclick="mess()">Send Message</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+  <script>
+
+        function mess(){
+
+            alert("your message has been sent successfully");
+
+        }
+
+  </script>
+
+
+
+    
+</body>
+
+<script>
+  AOS.init({
+      duration:1500
+  });
+</script>
+
+</html>
